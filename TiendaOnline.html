@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <title>
+      
+    </title>
+  </head>
+  <body>
+  <!--========================================================== -->
+                        <!-- ENCABEZADO -->
+  <!--========================================================== -->
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6"></p>
+    </header>
+
+    <nav  class="navbar navbar-expand-lg navbar-light p-3"  id="menu">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src=".\img\logo.jpg" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href=".\Contenido\Catalogo.html">Catálogo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#equipo">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#seccion-contacto">Contáctanos</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Categoria" aria-label="Buscar">
+              <button class="btn btn-primary btn-primary-outline-success" type="button" style="background-color: tan ;border-color: whitesmoke;" >Buscar</button>
+            </form>
+          </div>
+
+        </div>
+      </nav>
+
+    <!--========================================================== -->
+                        <!-- SLIDER DE IMAGENES-->
+    <!--========================================================== -->
+   
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="./img/busos.jpg" class="d-block w-100" alt="">
+          </div>
+          
+ 
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/panta.jpg" class="d-block w-100" alt="...">
+          </div>
+ 
+
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/vestidos.jpg" class="d-block w-100" alt="...">
+          </div>
+ 
+ 
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>    
+    
+        
+     
+    <!--========================================================== -->
+                        <!-- INTRODUCCION DE SERVICIOS-->
+    <!--========================================================== -->
+
+
+    <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto" id="intro">
+    <h1 class="p-3 fs-2 border-top border-3" style="color: chocolate;">"Una pagina para vender la ropa que no usas y que alguien desea tener"</h1>
+     <p class="p-3  fs-4">
+         <span class="text-primary"></span> Second Chances es la inciativa donde te ayudamos renovar tu guardaropa, vendiendo la ropa que no usas a través de nuestras redes        
+     </p>   
+    </section>
+
+   <!--========================================================== -->
+                        <!-- TIPOS DE SERVICIOS-->
+    <!--========================================================== -->
+
+
+<section class="w-100">
+    <div class="row w-75 mx-auto" id="servicios-fila-1">       
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+            <img src="./img/desarrollo.png" alt="desarrollo"   width="180" height="160">
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">Sostenibilidad</h3>
+                <p class="px-4">Nuestro propósito es crear una marca con un sello verde, puesto que la producción de ropa y calzado produce el 8% de los gases de efecto invernadero, teniendo en cuenta la emisiones de carbono debido a la exportación de los mismos, con nuestra iniciativa esperamos reducir esas estadisticas </p>
+            </div>
+
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+            <img src="./img/concepto.png" alt="concepto" width="180" height="160">
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Venta</h3>
+                <p class="px-4">Si tienes ropa o zapatos que ya no usas y están en my buen estado, puedes venderlas a través de nuestra página y generar ganancias del 50%</p>
+            </div>
+        </div>   
+    </div>
+    
+    <div class="row w-75 mx-auto mb-5" id="servicios-fila-2">       
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+            <img src="./img/comunicaciones.png" alt="comunicaciones" width="180" height="160">
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">Contactanos</h3>
+                <p class="px-4">Puedes contactarnos para comprar y vender tu ropa através de esta pagina y nuestras redes sociales</p>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+            <img src="./img/se.jpg" alt="seo" width="180" height="160" >
+
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb-1">¿Cómo comprar?</h3>
+                <p class="px-4">Se publica la prenda en redes o en la página,si te interesa la agregas al carrito(por redes envias un mensaje al DM) i eres el primero en pedir y concretar la venta l prenda será tuya</p>
+            </div>
+        </div>   
+    </div>
+</section>
+
+<!--========================================================== -->
+                        <!-- SECCION ACERCA DE NOSOTROS-->
+<!--========================================================== -->
+
+<section>
+    <div class="container w-50 m-auto text-center" id="equipo">
+        <h1 class="mb-5 fs-2">Equipo pequeño con resultados Grandes<span class="text-primary" > </span>.</h1>
+        <p class="fs-4 ">Siempre buscamos las personas adecuadas para que trabajen con nosotros. Si te sientes listo para este reto, te esperamos para que te unas a nosotros.</p>
+    </div>
+
+    <div class="mt-5 text-center">
+        <img id="img-equipo" src="./img/inicio.PNG" alt="equipo">
+    </div>
+
+    <div id="local" class="border-top border-2">
+        <div class="mapa"> </div>
+        <div>
+            <div class="wrapper-local">
+                <h2>New Arrivals</h2>
+                <h2 class="text-primary mb-4" id="typewriter"></h2>
+                <p class="fs-5 text-body">Elijimos Miami para nuestra oficina con el objetivo de estar cerca a nuestros clientes. Estamos ubicados en Brickell, el corazon y el centro financiero de Miami, cerca de los mejores restaurantes, tiendas y tan solo 15 minutos de las playas. ¡Visitennos y no se arrepentiran!</p>
+                <section class="d-flex justify-content-start" id="numeros-local">
+                    <div>
+                      
+                        <p  >
+                          Every 2 weeks</p>
+                        <p>New Season</p>
+                    </div>
+                    <div>
+                        <p >Like New</p>
+                        <p>Estado</p>
+                    </div>
+                    <div>
+                        <p >+500</p>
+                        <p>Prendas</p>
+                    </div>
+                    <div id="typewriter" class="text-color">
+                      
+                    </div>
+              </section>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!--========================================================== -->
+                        <!-- SECCION CONTACTOS-->
+<!--========================================================== -->
+
+<section id="seccion-contacto" class="border-bottom border-secondary border-2">
+  <div id="bg-contactos">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1b2a4e" fill-opacity="1" d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+  </div>
+
+
+<!--========================================================== -->
+                      <!-- CONTENEDOR DEL FORMULARIO -->
+<!--========================================================== -->
+
+  <div class="container  border-top border-primary " style="max-width: 500px" id="contenedor-formulario">
+      <div class="text-center mb-4" id="titulo-formulario">
+        <div><img src="./img/support.png" alt="" class="img-fluid ps-5"></div>
+        <h2>Contactanos</h2>
+        <p class="fs-5">Estamos aqui para hacer realidad de tus proyectos</p>
+      </div>
+
+     
+
+      <form   method="POST" data-netlify="true" action="#">     
+            <div class= "mb-3">           
+              <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com">
+            </div>
+ 
+          
+            <div class="mb-3">            
+              <input type="input" class="form-control" id="name" name="name" placeholder="John Doe">
+            </div>
+      
+
+            <div class="mb-3">
+              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Teléfono">
+            </div>
+
+          <div class="mb-3">       
+            <textarea class="form-control" name="message" id="message" rows="4"></textarea>
+          </div>
+
+          <div class="mb-3">
+            <button 
+            style="background-color: tan;border-color: aliceblue;"
+            type="submit" class=" btn btn-primary w-100 fs-5">Enviar Mensaje </button>
+          </div>
+      </form>
+  
+  </div>
+</section>
+
+
+<!--========================================================== -->
+                        <!--FOOTER-->
+<!--========================================================== -->
+
+
+<footer class="footer">
+  <a class="enlace-footer" href="https://es-la.facebook.com/" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 226 226"
+          style=" fill:#000000;">
+          <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+              stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+              font-family="none" font-weight="none" font-size="none" text-anchor="none"
+              style="mix-blend-mode: normal">
+              <path d="M0,226v-226h226v226z" fill="#000000"></path>
+              <g fill="#ffffff">
+                  <path
+                      d="M113,18.83333c-52.00825,0 -94.16667,42.15842 -94.16667,94.16667c0,52.00825 42.15842,94.16667 94.16667,94.16667c52.00825,0 94.16667,-42.15842 94.16667,-94.16667c0,-52.00825 -42.15842,-94.16667 -94.16667,-94.16667zM113,37.66667c41.60283,0 75.33333,33.7305 75.33333,75.33333c0,37.04891 -26.77936,67.78251 -62.01758,74.08269v-45.50163h22.27263l3.31054,-25.65673h-25.43603v-16.35042c-0.00001,-7.42034 2.06798,-12.43295 12.70882,-12.43295h13.4445v-22.89795c-6.54458,-0.66858 -13.11551,-0.99361 -19.69776,-0.97477c-19.53017,0 -32.90315,11.92003 -32.90315,33.80436v18.88851h-22.07031v25.65673h22.07031v45.52003c-35.40101,-6.16634 -62.34864,-36.97342 -62.34864,-74.13786c0,-41.60283 33.7305,-75.33333 75.33333,-75.33333z">
+                  </path>
+              </g>
+          </g>
+      </svg>
+  </a>
+
+  <a class="enlace-footer" href="https://www.instagram.com/" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 172 172"
+          style=" fill:#000000;">
+          <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+              stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+              font-family="none" font-weight="none" font-size="none" text-anchor="none"
+              style="mix-blend-mode: normal">
+              <path d="M0,172v-172h172v172z" fill="#000000"></path>
+              <g fill="#ffffff">
+                  <path
+                      d="M86,11.46667c-41.09653,0 -74.53333,33.4368 -74.53333,74.53333c0,41.09653 33.4368,74.53333 74.53333,74.53333c41.09653,0 74.53333,-33.4368 74.53333,-74.53333c0,-41.09653 -33.4368,-74.53333 -74.53333,-74.53333zM66.88516,34.4h38.21849c17.91667,0 32.49636,14.57422 32.49636,32.48516v38.21849c0,17.91667 -14.57423,32.49636 -32.48516,32.49636h-38.21849c-17.91667,0 -32.49636,-14.57423 -32.49636,-32.48516v-38.21849c0,-17.91667 14.57422,-32.49636 32.48516,-32.49636zM66.88516,45.86667c-11.58707,0 -21.01849,9.43689 -21.01849,21.02969v38.21849c0,11.58707 9.43689,21.01849 21.02969,21.01849h38.21849c11.58707,0 21.01849,-9.43689 21.01849,-21.02969v-38.21849c0,-11.58707 -9.43689,-21.01849 -21.02969,-21.01849zM112.76302,55.41849c2.10987,0 3.81849,1.70862 3.81849,3.81849c0,2.10987 -1.70862,3.82969 -3.81849,3.82969c-2.10987,0 -3.82969,-1.71982 -3.82969,-3.82969c0,-2.10987 1.71982,-3.81849 3.82969,-3.81849zM86,57.33333c15.8068,0 28.66667,12.85987 28.66667,28.66667c0,15.8068 -12.85987,28.66667 -28.66667,28.66667c-15.8068,0 -28.66667,-12.85987 -28.66667,-28.66667c0,-15.8068 12.85987,-28.66667 28.66667,-28.66667zM86,68.8c-9.4993,0 -17.2,7.7007 -17.2,17.2c0,9.4993 7.7007,17.2 17.2,17.2c9.4993,0 17.2,-7.7007 17.2,-17.2c0,-9.4993 -7.7007,-17.2 -17.2,-17.2z">
+                  </path>
+              </g>
+          </g>
+      </svg>
+  </a>
+  <a class="enlace-footer" href="https://www.pinterest.es/" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 172 172"
+          style=" fill:#000000;">
+          <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+              stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+              font-family="none" font-weight="none" font-size="none" text-anchor="none"
+              style="mix-blend-mode: normal">
+              <path d="M0,172v-172h172v172z" fill="#000000"></path>
+              <g fill="#ffffff">
+                  <path
+                      d="M86,14.33333c-39.5815,0 -71.66667,32.08517 -71.66667,71.66667c0,39.5815 32.08517,71.66667 71.66667,71.66667c39.5815,0 71.66667,-32.08517 71.66667,-71.66667c0,-39.5815 -32.08517,-71.66667 -71.66667,-71.66667zM86,28.66667c31.66233,0 57.33333,25.671 57.33333,57.33333c0,31.66233 -25.671,57.33333 -57.33333,57.33333c-5.27193,0 -10.35229,-0.76706 -15.20117,-2.09961c1.52517,-3.07269 2.8933,-6.3108 3.63933,-9.18229c0.82417,-3.15333 4.19922,-16.01302 4.19922,-16.01302c2.193,4.18533 8.60247,7.74056 15.42513,7.74056c20.30317,0 34.9375,-18.67454 34.9375,-41.88021c0,-22.2525 -18.15294,-38.89876 -41.51628,-38.89876c-29.06083,0 -44.48372,19.50442 -44.48372,40.74642c0,9.87567 5.25496,22.17098 13.66146,26.09115c1.27567,0.59483 1.95975,0.33683 2.25358,-0.89583c0.22933,-0.93883 1.36682,-5.51408 1.87565,-7.64258c0.16483,-0.67367 0.08992,-1.26515 -0.46191,-1.93165c-2.78067,-3.3755 -5.01107,-9.57164 -5.01107,-15.35514c0,-14.8565 11.24584,-29.22656 30.40235,-29.22656c16.54066,0 28.12077,11.27507 28.12077,27.3929c0,18.2105 -9.19573,30.82226 -21.16406,30.82226c-6.60767,0 -11.57114,-5.45574 -9.98015,-12.16374c1.89917,-8.00516 5.58496,-16.64749 5.58496,-22.42383c0,-5.16717 -2.76275,-9.47624 -8.51042,-9.47624c-6.75817,0 -12.19173,6.98213 -12.19173,16.34896c0,5.96267 2.01563,9.99414 2.01563,9.99414c0,0 -6.66903,28.21461 -7.89453,33.46777c-0.60737,2.59249 -0.8101,5.66382 -0.82585,8.73438c-19.05164,-9.32011 -32.20801,-28.8455 -32.20801,-51.48242c0,-31.66233 25.671,-57.33333 57.33333,-57.33333z">
+                  </path>
+              </g>
+          </g>
+      </svg>
+  </a>
+
+  <p>Second Chances Shop</p>
+
+</footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> 
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
